@@ -1,0 +1,73 @@
+html, body {
+    overflow-x: hidden !important;
+    font-family: doctorBae;
+}
+
+body {
+    background-color: rgb(242, 242, 242);
+}
+
+@font-face {
+    font-family: 'logo';
+    font-weight: 100;
+    src: url('../fonts/AttractionPersonalUse-Rx16.ttf');
+  }
+
+@font-face {
+    font-family: 'doctorBae';
+    font-weight: 100;
+    src: url('../fonts/Toriga-Medium.ttf');
+  }
+
+.logo {
+    font-style: italic;
+    font-family: logo;
+    color: rgb(174, 105, 66);
+}
+
+.card, .email {
+    border: 1px solid grey;
+}
+
+.sub-btn {
+    background-color: rgb(174, 105, 66);
+    color: white;
+    font-weight: bold;
+}
+
+.sub-btn:hover {
+    cursor: pointer;
+}
+
+input {
+    text-align: center;
+  }
+  
+  ::-webkit-input-placeholder {
+    text-align: center;
+  }
+  
+  :-moz-placeholder {
+    text-align: center;
+  }
+
+.cartoon {
+    background-image: url('../images/cartoon.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+@media (max-width: 767.98px) {
+    .content {
+        margin: 50px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .content {
+        height: auto;
+        min-height: 100vh;
+    }
+}
